@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzarias - UaiFOOD</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function orderPizza(pizzaria) {
+            alert(`Pedindo da Pizzaria, ${pizzaria}!`);
+            // Add code here to submit the order to the server
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Pizzarias</h1>
+    </header>
+    <main>
+        <h2>Escolha aonde deseja pedir</h2>
+        <ul>
+            <li>
+                <img src="pizzaria1-logo.png" alt="Pizzeria 2 logo" width="50" height="50">
+                <h3>Pizzaria Sabor Mineiro</h3>
+                <p>Sabores mineiros, desde eles sabores doces, ou sejam eles salgados, venha experimentar!!!</p>
+                <p>Price: R$70 - R$150</p>
+                <button onclick="orderPizza('Gosto Mineiro')" id="order-pizza">Pedir</button>
+            </li>
+            <li>
+                <img src="pizzaria2-logo.png" alt="Pizzeria 2 logo" width="50" height="50">
+                <h3>Ponto Da Pizza</h3>
+                <p>Melhor Pizza Da Região, Experimente Já!!!</p>
+                <p>Preço: R$60 - R$150</p>
+                <button onclick="orderPizza('Ponto da Pizza')" id="order-pizza">Pedir</button>
+            </li>
+            <li>
+                <img src="pizzaria3-logo.png" alt="Pizzeria 2 logo" width="80" height="50">
+                <h3>Gosto Italiano</h3>
+                <p>Tradição italiana, a melhor pizza disparada, com gosto de tradição e qualidade. Tradizione ed Eccellenza</p>
+                <p>Preço: R$40 - R$70</p>
+                <button onclick="orderPizza('Gosto Italiano')" id="order-pizza">Pedir</button>
+            </li>
+        </ul>
+    </main>
+    <footer>
+        <p>© 2024 UaiFOOD</p>
+    </footer>
+</body>
+</html>
