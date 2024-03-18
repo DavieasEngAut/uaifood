@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzarias - UaiFOOD</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function orderPizza(lanchonete) {
+            alert(`Pedindo da lanchonete, ${lanchonete}!`);
+            // Add code here to submit the order to the server
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Lanchonetes</h1>
+    </header>
+    <main>
+        <h2>Escolha aonde deseja pedir</h2>
+        <ul>
+            <li>
+                <img src="Lanchonete1-logo.png" alt="Pizzeria 2 logo" width="50" height="50">
+                <h3>MacDonnalds</h3>
+                <p>Sabor mais conhecido do Brasil, venha garantir seu combo!!</p>
+                <p>Preços: R$34,90 - R$42,50</p>
+                <button onclick="orderPizza('MacDonnalds')" id="order-pizza">Pedir</button>
+            </li>
+            <li>
+                <img src="lanchonete2-logo.png" alt="Pizzeria 2 logo" width="50" height="50">
+                <h3>Burguer King</h3>
+                <p>Venha garantir seu Burger King, vem de Combão!!</p>
+                <p>Preços: R$32,60 - R$150</p>
+                <button onclick="orderPizza('Ponto da Pizza')" id="order-pizza">Pedir</button>
+            </li>
+            <li>
+                <img src="lanchonete3-logo.png" alt="Pizzeria 2 logo" width="80" height="50">
+                <h3>Marcão Do Podrão</h3>
+                <p>Vem no Podrão do marcão que é o melhor!!!</p>
+                <p>Preços: R$15 - R$35</p>
+                <button onclick="orderPizza('Gosto Italiano')" id="order-pizza">Pedir</button>
+            </li>
+        </ul>
+    </main>
+    <footer>
+        <p>© 2024 UaiFOOD</p>
+    </footer>
+</body>
+</html>
