@@ -10,6 +10,8 @@
     outline: none;
     border: none;
     text-decoration: none;
+    outline: none;
+
 }
 
 html {
@@ -22,8 +24,6 @@ html {
 }
 
 /* MENU */
-
-
 
 .content {
     width: 100vw;
@@ -148,6 +148,7 @@ html {
     justify-content: space-between;
    
 }
+
 
 /* Cardápio */
 
