@@ -33,7 +33,6 @@ html {
     align-items: center;
     background-color: #1f1e1f;
     position: fixed;
-    justify-content: center;
     padding-left: 30rem;
 }
 
@@ -42,7 +41,6 @@ html {
     height: auto;
     cursor: pointer;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
