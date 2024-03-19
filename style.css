@@ -30,8 +30,8 @@ html {
     width: 100vw;
     height: 70px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
     background-color: #1f1e1f;
     position: fixed;
     padding-left: 30rem;
